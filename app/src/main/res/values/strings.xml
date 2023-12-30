@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">quizz2</string>
+    <string name="intro_text">
+    QQ Game – ứng dụng trí tuệ đầy thách thức dành cho những người yêu thích toán, lý, và hóa.\n
+        \n
+    Với sự kết hợp hoàn hảo giữa giáo dục và giải trí, "QQ Game" là một ứng dụng trắc nghiệm đa dạng với những câu hỏi sâu sắc về các chủ đề toán học, vật lý và hóa học.\n
+        \n
+    Ứng dụng không chỉ giúp người chơi nâng cao kiến thức mà còn khám phá sự hứng thú và niềm đam mê trong việc học tập.\n
+        \n
+    Với giao diện thân thiện, "QQ Game" mang đến trải nghiệm chơi game thông minh và thú vị, khuyến khích người chơi thử thách bản thân, cải thiện kỹ năng tư duy và giúp họ tự tin hơn khi đối mặt với các vấn đề khoa học phức tạp.\n
+        \n
+    Hãy cùng nhau khám phá sức hấp dẫn của tri thức với "QQ Game" và trải nghiệm niềm vui học tập qua từng câu hỏi đầy thách thức!\n
+    \n
+    Lối chơi : Game sẽ có các câu hỏi bao quanh các lĩnh vực toán , lý , hóa , sinh\n
+    Bạn có thể trả lời câu hỏi ở 2 cấp độ dễ và khó\n
+    Thành tích của bạn sẽ được lưu lại
+</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>
