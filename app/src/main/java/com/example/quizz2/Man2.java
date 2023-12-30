@@ -48,7 +48,9 @@ public class Man2 extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navigateToMan5();
+                Intent intent = new Intent(getApplicationContext(), Man5.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -101,7 +103,7 @@ public class Man2 extends AppCompatActivity {
     }
     private void navigateToMan5() {
         // Chuyển đến màn hình Man5
-        Intent intent = new Intent(this, Man5.class);
+        Intent intent = new Intent(getApplicationContext(), Man5.class);
         startActivity(intent);
     }
 

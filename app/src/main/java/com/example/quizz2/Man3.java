@@ -38,9 +38,7 @@ public class Man3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_man3);
         savedTopicName = getIntent().getStringExtra("CATEGORY");
-        if (savedTopicName != "history"){
-            navigateToMan5();
-        }
+
         savedLevel = getIntent().getStringExtra("HARD_MODE");
 
         // Ánh xạ các thành phần giao diện với biến tương ứng
@@ -145,9 +143,11 @@ public class Man3 extends AppCompatActivity {
             "William Shakespeare",
             "Nucleus"
     };
-    private void navigateToMan5() {
-        // Chuyển đến màn hình Man5
-        Intent intent = new Intent(this, Man5.class);
+
+    private  void navigateToMan4() {
+
+        Intent intent = new Intent(this, Man4.class);
+        intent.putExtra("Point", currentQuestionIndex);
         startActivity(intent);
     }
 }
